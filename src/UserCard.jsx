@@ -3,7 +3,7 @@ function UserCard({ name, onDelete }) {
       <div className="user-card">
         <div className="user-info">
           <h2>{name}</h2>
-          <p>{name} ke baare mein kuch additional jaankari yahan dikhayi ja sakti hai.</p>
+          <p>{name} Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, tempora!</p>
         </div>
         <button className="delete-btn" onClick={onDelete}>Delete</button>
       </div>

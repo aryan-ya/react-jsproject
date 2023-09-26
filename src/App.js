@@ -7,7 +7,7 @@ function App() {
   const [users, setUsers] = useState(['User 1', 'User 2', 'User 3', 'User 4']);
 
   const handleDelete = (index) => {
-    const confirmDelete = window.confirm('Kya aap sach mein ' + users[index] + ' ko delete karna chahte hain?');
+    const confirmDelete = window.confirm('delete  ' + users[index] + ' this');
     if (confirmDelete) {
       const newUsers = [...users];
       newUsers.splice(index, 1);
